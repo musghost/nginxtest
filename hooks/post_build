@@ -1,6 +1,4 @@
 #!/bin/bash
 
-curl -X POST "https://sj.floranext.com/job/bd-deploy/buildWithParameters" \
-  --data-urlencode DOCKER_IMAGE_TAG="$CACHE_TAG" \
-  --data token=ALMpNdcaVjtn9wbaxGTmtNQz4hS43e \
-  --user "builddeploy:d04017cea178c4c26a8d22c5249adc71"
+echo $SOURCE_BRANCH
+echo $SOURCE_COMMIT
