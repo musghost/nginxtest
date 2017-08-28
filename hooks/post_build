@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo $SOURCE_BRANCH
-echo $SOURCE_COMMIT
+echo "$CACHE_TAG"
+echo "${CACHE_TAG}"
